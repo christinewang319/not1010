@@ -11,3 +11,8 @@ html, body, h1 {
   box-sizing: inherit;
   background: transparent;
 }
+
+canvas {
+  display: block;
+  margin: auto;
+}
