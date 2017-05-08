@@ -1,4 +1,4 @@
-html, body, h1 {
+html, body, div, h1, h4, h5, ul, li, a {
   margin: 0;
   padding: 0;
   border: 0;
@@ -10,9 +10,67 @@ html, body, h1 {
   vertical-align: inherit;
   box-sizing: inherit;
   background: transparent;
+  list-style-type: none;
+}
+
+.game {
+  width: 100%;
+  position: relative;
+}
+
+.game > h1, .game h4, .game ul {
+  width: 90%;
+  margin: 50px auto;
+  padding: 15px;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 75px;
+  color: #4c4b4b;
+  text-align: center;
+  background-color: #f5f5f1;
+  border: 1px solid #edede7;
 }
 
 canvas {
   display: block;
   margin: auto;
+}
+
+.game h4, .game ul {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  border: none;
+}
+
+.game h4 {
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-right: 15px;
+  border-top: 1px solid #edede7;
+  border-left: 1px solid #edede7;
+  border-right: 1px solid #edede7;
+}
+
+.game ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding: 0 15px 15px 0;
+  font-size: 14px;
+  color: #777;
+  border-bottom: 1px solid #edede7;
+  border-left: 1px solid #edede7;
+  border-right: 1px solid #edede7;
+}
+
+.game ul li:first-child {
+  margin-top: 3.75px;
+  padding-right: 15px;
+  border-right: 1px solid #777;
+}
+
+.game ul li:last-child {
+  margin-top: 3.75px;
+  padding-left: 15px;
 }
