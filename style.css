@@ -18,7 +18,7 @@ html, body, div, h1, h4, h5, ul, li, a {
   position: relative;
 }
 
-.game > h1, .game h4, .game ul {
+.game h1, .game h4, .game ul {
   width: 90%;
   margin: 50px auto;
   padding: 15px;
