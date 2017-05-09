@@ -23,16 +23,17 @@ html, body, div, h1, h4, h5, ul, li, a {
   margin: 50px auto;
   padding: 15px;
   font-family: 'Bungee Shade', cursive;
-  font-size: 75px;
+  font-size: 100px;
   color: #4c4b4b;
   text-align: center;
   background-color: #f5f5f1;
   border: 1px solid #edede7;
+  border-radius: 3px;
 }
 
 canvas {
   display: block;
-  margin: auto;
+  margin: 75px auto;
 }
 
 .game h4, .game ul {
@@ -49,6 +50,8 @@ canvas {
   border-top: 1px solid #edede7;
   border-left: 1px solid #edede7;
   border-right: 1px solid #edede7;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .game ul {
@@ -61,6 +64,8 @@ canvas {
   border-bottom: 1px solid #edede7;
   border-left: 1px solid #edede7;
   border-right: 1px solid #edede7;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .game ul li:first-child {
