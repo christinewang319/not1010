@@ -45,8 +45,7 @@ canvas {
 
 .game h4 {
   margin-top: 50px;
-  padding-top: 15px;
-  padding-right: 15px;
+  padding: 15px 15px 0 15px;;
   border-top: 1px solid #edede7;
   border-left: 1px solid #edede7;
   border-right: 1px solid #edede7;
@@ -56,7 +55,7 @@ canvas {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  padding: 0 15px 15px 0;
+  padding: 0 15px;
   font-size: 14px;
   color: #777;
   border-bottom: 1px solid #edede7;
@@ -66,11 +65,13 @@ canvas {
 
 .game ul li:first-child {
   margin-top: 3.75px;
+  margin-bottom: 15px;
   padding-right: 15px;
   border-right: 1px solid #777;
 }
 
 .game ul li:last-child {
   margin-top: 3.75px;
+  margin-bottom: 15px;
   padding-left: 15px;
 }
