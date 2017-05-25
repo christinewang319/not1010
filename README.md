@@ -2,7 +2,7 @@
 
 [Play !1010!](http://christinetwang.me/not1010/)
 
-!1010! is a highly addictive, Tetris-like puzzle game that's inspired by 1010! The rules are simple: (1) Clear blocks and score as many points as you can by completing vertical and/or horizontal lines and (2) You lose if you run out of moves on the grid.
+!1010!("not-1010!") is a highly addictive, Tetris-like puzzle game that's inspired by 1010! The rules are simple: (1) Clear blocks and score as many points as you can by completing vertical and/or horizontal lines and (2) You lose if you run out of moves on the grid.
 
 ![!1010!](https://github.com/christinewang319/not1010/blob/master/assets/not1010.png)
 
